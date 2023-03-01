@@ -1,10 +1,10 @@
-Feb 28, 2023 1:06:32 AM reposense.parser.CsvParser validateHeader
+Mar 01, 2023 1:14:05 AM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
-Feb 28, 2023 1:06:32 AM reposense.parser.CsvParser validateHeader
+Mar 01, 2023 1:14:05 AM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, author-config.csv, and recognized columns: Author's Emails,  Repository's Location,  Author's GitHub ID,  Branch,  Author's Display Name,  Ignore Glob List,  Author's Git Author Name
-Feb 28, 2023 1:06:32 AM reposense.parser.CsvParser validateHeader
+Mar 01, 2023 1:14:05 AM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, group-config.csv, and recognized columns: Globs,  Repository's Location,  Group Name
-Feb 28, 2023 1:06:32 AM reposense.git.GitConfig getGlobalGitLfsConfig
+Mar 01, 2023 1:14:05 AM reposense.git.GitConfig getGlobalGitLfsConfig
 WARNING: Could not get global git lfs config
 java.lang.RuntimeException: reposense.system.CommandRunnerProcessException: Error returned from command git config --global --list on path . :
 fatal: unable to read config file '/home/runner/.gitconfig': No such file or directory
@@ -20,11 +20,11 @@ fatal: unable to read config file '/home/runner/.gitconfig': No such file or dir
 	at reposense.system.CommandRunner.runCommand(CommandRunner.java:21)
 	... 3 more
 
-Feb 28, 2023 1:06:32 AM reposense.report.RepoCloner spawnCloneProcess
+Mar 01, 2023 1:14:05 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2223S2-TIC4002-F16-1/tp2.git...
-Feb 28, 2023 1:06:32 AM reposense.report.RepoCloner waitForCloneProcess
+Mar 01, 2023 1:14:05 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2223S2-TIC4002-F16-1/tp2.git to complete...
-Feb 28, 2023 1:06:32 AM reposense.report.RepoCloner waitForCloneProcess
+Mar 01, 2023 1:14:05 AM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "AY2223S2-TIC4002-F16-1/tp2[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/AY2223S2-TIC4002-F16-1/tp2.git' 'repos/AY2223S2-TIC4002-F16-1_tp2/tp2_bare' on path . :
 Cloning into bare repository 'repos/AY2223S2-TIC4002-F16-1_tp2/tp2_bare'...
@@ -40,7 +40,7 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Feb 28, 2023 1:06:32 AM reposense.report.ReportGenerator generateReposReport
+Mar 01, 2023 1:14:05 AM reposense.report.ReportGenerator generateReposReport
 INFO: The report is generated at /home/runner/work/tp-dashboard/tp-dashboard/reposense-report
-Feb 28, 2023 1:06:32 AM reposense.RepoSense main
-INFO: Elapsed processing time: 0.48 second(s)
+Mar 01, 2023 1:14:05 AM reposense.RepoSense main
+INFO: Elapsed processing time: 0.45 second(s)
