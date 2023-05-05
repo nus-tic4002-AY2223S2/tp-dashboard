@@ -1,4 +1,4 @@
 Repository's Location,Group Name,Globs
-https://github.com/AY2223S2-TIC4002-F16-1/tp2.git,docs,**.md;**.puml
-https://github.com/AY2223S2-TIC4002-F16-1/tp2.git,functional-code,src/main/**
-https://github.com/AY2223S2-TIC4002-F16-1/tp2.git,test-code,src/test/**
+https://github.com/AY2223S2-TIC4002-F18-1/tp2.git,docs,**.md;**.puml
+https://github.com/AY2223S2-TIC4002-F18-1/tp2.git,functional-code,src/main/**
+https://github.com/AY2223S2-TIC4002-F18-1/tp2.git,test-code,src/test/**
