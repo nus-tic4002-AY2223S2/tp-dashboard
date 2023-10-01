@@ -1,16 +1,16 @@
-Sep 30, 2023 12:53:33 AM reposense.system.LogsManager addFileHandler
+Oct 01, 2023 1:01:57 AM reposense.system.LogsManager addFileHandler
 INFO: Log temp folder has been successfully created
-Sep 30, 2023 12:53:33 AM reposense.parser.CsvParser validateHeader
+Oct 01, 2023 1:01:57 AM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
-Sep 30, 2023 12:53:33 AM reposense.parser.CsvParser validateHeader
+Oct 01, 2023 1:01:57 AM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, author-config.csv, and recognized columns: Author's Emails,  Repository's Location,  Author's GitHub ID,  Branch,  Author's Display Name,  Ignore Glob List,  Author's Git Author Name
-Sep 30, 2023 12:53:33 AM reposense.model.AuthorConfiguration checkDuplicateAliases
+Oct 01, 2023 1:01:57 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias opkko found. The alias will belong to the last author - Opkko
-Sep 30, 2023 12:53:33 AM reposense.model.AuthorConfiguration checkDuplicateAliases
+Oct 01, 2023 1:01:57 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias opkko found. The alias will belong to the last author - Opkko
-Sep 30, 2023 12:53:33 AM reposense.parser.CsvParser validateHeader
+Oct 01, 2023 1:01:57 AM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, group-config.csv, and recognized columns: Globs,  Repository's Location,  Group Name
-Sep 30, 2023 12:53:33 AM reposense.git.GitConfig getGlobalGitLfsConfig
+Oct 01, 2023 1:01:57 AM reposense.git.GitConfig getGlobalGitLfsConfig
 WARNING: Could not get global git lfs config
 java.lang.RuntimeException: reposense.system.CommandRunnerProcessException: Error returned from command git config --global --list on path . :
 fatal: unable to read config file '/home/runner/.gitconfig': No such file or directory
@@ -26,25 +26,25 @@ fatal: unable to read config file '/home/runner/.gitconfig': No such file or dir
 	at reposense.system.CommandRunner.runCommand(CommandRunner.java:21)
 	... 3 more
 
-Sep 30, 2023 12:53:34 AM reposense.report.RepoCloner spawnCloneProcess
+Oct 01, 2023 1:01:57 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2223S2-TIC4002-F18-1/tp2.git...
-Sep 30, 2023 12:53:34 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2023 1:01:57 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2223S2-TIC4002-F18-1/tp2.git to complete...
-Sep 30, 2023 12:53:35 AM reposense.report.RepoCloner waitForCloneProcess
+Oct 01, 2023 1:02:00 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2223S2-TIC4002-F18-1/tp2.git completed!
-Sep 30, 2023 12:53:35 AM reposense.report.ReportGenerator analyzeRepos
+Oct 01, 2023 1:02:00 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [1/1] Analyzing https://github.com/AY2223S2-TIC4002-F18-1/tp2.git (master)...
-Sep 30, 2023 12:53:35 AM reposense.report.ReportGenerator updateRepoConfig
+Oct 01, 2023 1:02:00 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/AY2223S2-TIC4002-F18-1/tp2.git (master) does not contain a standalone config file.
-Sep 30, 2023 12:53:35 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Oct 01, 2023 1:02:00 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/AY2223S2-TIC4002-F18-1/tp2.git (master)...
-Sep 30, 2023 12:53:38 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+Oct 01, 2023 1:02:03 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/AY2223S2-TIC4002-F18-1/tp2.git (master)...
-Sep 30, 2023 12:53:38 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Oct 01, 2023 1:02:03 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/AY2223S2-TIC4002-F18-1/tp2.git (master)...
-Sep 30, 2023 12:53:39 AM reposense.report.ReportGenerator analyzeRepo
+Oct 01, 2023 1:02:04 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/AY2223S2-TIC4002-F18-1/tp2.git (master) completed!
-Sep 30, 2023 12:53:39 AM reposense.report.ReportGenerator generateReposReport
+Oct 01, 2023 1:02:04 AM reposense.report.ReportGenerator generateReposReport
 INFO: The report is generated at /home/runner/work/tp-dashboard/tp-dashboard/reposense-report
-Sep 30, 2023 12:53:39 AM reposense.RepoSense main
-INFO: Elapsed processing time: 5.36 second(s)
+Oct 01, 2023 1:02:04 AM reposense.RepoSense main
+INFO: Elapsed processing time: 6.72 second(s)
